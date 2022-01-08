@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "axolotl_bucket"
+        },
+        "title": "不溺勇者",
+        "description": "得到深海意志的回應"
+    },
+    "parent": "half:heart/gain_red_heart",
+    "criteria": {
+        "drown_test":{
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {}
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:courage_pendant"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/courage_pendant"
+    }
+}

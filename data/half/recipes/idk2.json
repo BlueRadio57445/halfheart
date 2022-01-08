@@ -1,0 +1,7 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "golden_apple"
+    },
+    "result": "knowledge_book"
+}

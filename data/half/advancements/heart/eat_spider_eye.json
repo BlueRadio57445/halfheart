@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "spider_eye"
+        },
+        "title": "蛛眼之力",
+        "description": "吃下蜘蛛眼以獲得特別的力量"
+    },
+    "parent": "half:heart/gain_green_heart",
+    "criteria": {
+        "eat_spider_eye":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {"items": ["spider_eye"]},
+                "player": {"team": "green_heart"}
+            }
+        }
+    },
+    "rewards": {}
+}

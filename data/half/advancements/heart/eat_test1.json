@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "pufferfish"
+        },
+        "title": "身強體健",
+        "description": "透過極端的飲食來鍛鍊身體"
+    },
+    "parent": "half:heart/gain_red_heart",
+    "criteria": {
+        "eat_test1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {"items": ["pufferfish"]},
+                "player": {
+                    "team": "red_heart"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:red/resistence1"
+    }
+}

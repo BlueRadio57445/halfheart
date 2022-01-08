@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_dye"
+        },
+        "title": "黑血啟蒙",
+        "description": "成為一名黑血王子"
+    },
+    "parent": "half:heart/init",
+    "criteria": {
+        "black_heart":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["golden_sword"],
+                            "nbt": "{rite:1b}"
+                        }
+                    }
+                },
+                "entity": [
+                    {
+                        "condition": "alternative",
+                        "terms": [
+                            {"condition": "entity_properties","entity": "this","predicate": {"type": "wither_skeleton"}},
+                            {"condition": "entity_properties","entity": "this","predicate": {"type": "blaze"}}
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:heart/gain_black_heart"
+    }
+}

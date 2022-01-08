@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:green_dye"
+        },
+        "title": "綠血啟蒙",
+        "description": "成為一名綠血煉金者"
+    },
+    "parent": "half:heart/init",
+    "criteria": {
+        "green_heart":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["golden_sword"],
+                            "nbt": "{rite:1b}"
+                        }
+                    }
+                },
+                "entity": [
+                    {
+                        "condition": "alternative",
+                        "terms": [
+                            {"condition": "entity_properties","entity": "this","predicate": {"type": "cave_spider"}},
+                            {"condition": "entity_properties","entity": "this","predicate": {"type": "witch"}}
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:heart/gain_green_heart"
+    }
+}

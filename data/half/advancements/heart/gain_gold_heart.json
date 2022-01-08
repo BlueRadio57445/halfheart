@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:yellow_dye"
+        },
+        "title": "金血啟蒙",
+        "description": "成為一名金血發明家"
+    },
+    "parent": "half:heart/init",
+    "criteria": {
+        "gain_gold_heart":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["golden_apple"],
+                    "nbt":"{refined:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {"function": "half:heart/gain_gold_heart"}
+}

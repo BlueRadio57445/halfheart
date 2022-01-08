@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "red_dye"
+        },
+        "title": "真血啟蒙",
+        "description": "成為真血鬥士"
+    },
+    "parent": "half:heart/init",
+    "criteria": {
+        "red_heart":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt":"{Tags:[\"courage_test\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:heart/gain_red_heart"
+    }
+}

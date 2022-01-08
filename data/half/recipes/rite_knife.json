@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "golden_sword"}, {"item": "redstone"}, {"item": "glowstone_dust"}
+    ],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

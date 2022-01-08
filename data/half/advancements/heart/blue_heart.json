@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "light_blue_dye"
+        },
+        "title": "藍血啟發",
+        "description": "雖然古老的藍血一族已經滅絕了，但它們的精神仍能給你一些啟發",
+        "hidden": true
+    },
+    "parent": "half:heart/init",
+    "criteria": {
+        "enter_power_snow":{
+            "trigger": "enter_block",
+            "conditions": {"block": "powder_snow"}
+        },
+        "take_freze_damage":{
+            "trigger": "entity_hurt_player"
+        }
+    },
+    "requirements": [["enter_power_snow"], ["take_freze_damage"]],
+    "rewards": {}
+}

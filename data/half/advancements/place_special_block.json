@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "place_special_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block":"minecraft:diamond_block", 
+        "item":{
+          "items":["minecraft:diamond_block"],
+          "nbt": "{display:{Name:'{\"text\":\"昂貴方塊\", \"color\":\"green\"}'}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["place_special_block"]
+  ],
+  "rewards": {"function": "half:place_special_block"}
+}

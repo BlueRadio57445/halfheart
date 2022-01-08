@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "courage_test":{
+            "trigger": "slept_in_bed",
+            "conditions": {
+                "player": {
+                    "equipment": {"mainhand": {"items": ["redstone_torch"], "nbt": "{courage:1b}"}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:heart/courage_test"
+    }
+}

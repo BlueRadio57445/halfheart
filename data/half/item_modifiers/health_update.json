@@ -1,0 +1,8 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {"name": "health", "attribute": "minecraft:generic.max_health", "operation": "multiply_total", "amount": 1.0, "slot": "chest"}
+        ]
+    }
+]

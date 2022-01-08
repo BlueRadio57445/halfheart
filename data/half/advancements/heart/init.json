@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": "半血冒險",
+        "description": "開始你的半血冒險吧!",
+        "background": "minecraft:textures/block/stripped_crimson_stem.png"
+    },
+    "criteria": {
+        "init":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "half:player_init"
+    }
+}
