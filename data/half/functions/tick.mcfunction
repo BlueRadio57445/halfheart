@@ -8,7 +8,7 @@ execute as @e[tag=life_crystal] at @s run particle happy_villager ~ ~ ~ 1 1 1 0.
 
 #綠血
 effect give @a[team=green_heart] poison 1 0 true
-effect give @a[team=green_heart] night_vision 3 0 true
+effect give @a[team=green_heart] night_vision 13 0 true
 
 execute as @a[team=green_heart] at @s if block ~ ~ ~ powder_snow run effect clear @s poison
 
@@ -26,7 +26,7 @@ execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s o
 effect give @a[advancements={half:heart/drown_test=true}] water_breathing 1 0 true
 
 #金血
-effect give @a[team=gold_heart] absorption 1 0 true
+
 
 execute at @a[scores={throw_tp1=1..}] as @e[distance=..5,type=item, tag=!stored_tp, nbt={Item:{id:"minecraft:quartz",tag:{tp:1b}}}] run function half:gold/store_tp_crystal
 execute at @a[scores={throw_tp2=1..}] as @e[distance=..5,type=item, nbt={Item:{id:"minecraft:amethyst_shard",tag:{tp:1b}}}] run function half:gold/use_tp_crystal
