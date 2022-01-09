@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "mine_will":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {"items": ["ender_eye"], "nbt": "{will:['mine']}"}
+            }
+        }
+    },
+    "rewards": {"function": "half:red/mine_will"}
+}

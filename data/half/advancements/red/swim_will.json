@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "swim_will":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {"items": ["ender_eye"], "nbt": "{will:['swim']}"}
+            }
+        }
+    },
+    "rewards": {"function": "half:red/swim_will"}
+}

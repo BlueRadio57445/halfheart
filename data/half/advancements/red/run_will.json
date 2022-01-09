@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "run_will":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {"items": ["ender_eye"], "nbt": "{will:['run']}"}
+            }
+        }
+    },
+    "rewards": {"function": "half:red/run_will"}
+}

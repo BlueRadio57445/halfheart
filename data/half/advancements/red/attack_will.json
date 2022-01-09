@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "attack_will":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {"items": ["ender_eye"], "nbt": "{will:['attack']}"}
+            }
+        }
+    },
+    "rewards": {"function": "half:red/attack_will"}
+}

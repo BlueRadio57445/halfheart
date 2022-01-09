@@ -7,3 +7,11 @@ give @s redstone_torch{courage:1b, display:{Name:'{"text": "勇氣吊墜", "ital
 give @s golden_apple{refined:1b, display:{Name:'{"text": "精煉金蘋果", "italic": false}', Lore:['{"text": "吃下之後就能得到特殊力量", "color": "gray", "italic": false}']}}
 
 give @s golden_sword{rite:1b, display:{Name:'{"text": "儀式小刀", "italic": false}', Lore:['{"text": "殺死特殊生物會會獲得力量","color": "gray","italic": false}']}}
+
+give @p minecraft:ender_eye{will:["attack"], display:{Name:'{"text":"攻擊意志", "italic":false}'}, Enchantments:[{}]}
+
+give @p minecraft:ender_eye{will:["mine"], display:{Name:'{"text":"挖掘意志", "italic":false}'}, Enchantments:[{}]}
+
+give @p minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}'}, Enchantments:[{}]}
+
+give @p minecraft:ender_eye{will:["swim"], display:{Name:'{"text":"不溺意志", "italic":false}'}, Enchantments:[{}]}
