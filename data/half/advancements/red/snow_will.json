@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "snow_will":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {"items": ["ender_eye"], "nbt": "{will:['snow']}"}
+            }
+        }
+    },
+    "rewards": {"function": "half:red/snow_will"}
+}

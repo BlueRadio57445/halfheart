@@ -15,3 +15,7 @@ give @p minecraft:ender_eye{will:["mine"], display:{Name:'{"text":"挖掘意志"
 give @p minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}'}, Enchantments:[{}]}
 
 give @p minecraft:ender_eye{will:["swim"], display:{Name:'{"text":"不溺意志", "italic":false}'}, Enchantments:[{}]}
+
+give @p minecraft:ender_eye{will:["dolphin"], display:{Name:'{"text":"海豚意志", "italic":false}'}, Enchantments:[{}]}
+
+give @p minecraft:ender_eye{will:["snow"], display:{Name:'{"text":"踏雪意志", "italic":false}'}, Enchantments:[{}]}
