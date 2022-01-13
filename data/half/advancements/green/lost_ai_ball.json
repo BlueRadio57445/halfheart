@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "pick_up":{
+            "trigger": "thrown_item_picked_up_by_entity",
+            "conditions": {
+                "player": {"team":"green_heart"},
+                "item": {
+                    "items": ["pink_dye"],
+                    "nbt": "{touch:['lost_ai']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/lost_ai_ball"
+    }
+}

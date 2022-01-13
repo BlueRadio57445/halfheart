@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "slow":{
+            "trigger": "thrown_item_picked_up_by_entity",
+            "conditions": {
+                "player": {"team":"green_heart"},
+                "item": {
+                    "items": ["gray_dye"],
+                    "nbt": "{touch:['slow']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/slow_ball"
+    }
+}
