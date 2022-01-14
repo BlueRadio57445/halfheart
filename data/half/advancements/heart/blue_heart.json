@@ -11,12 +11,9 @@
     "criteria": {
         "enter_power_snow":{
             "trigger": "enter_block",
-            "conditions": {"block": "powder_snow"}
-        },
-        "take_freze_damage":{
-            "trigger": "entity_hurt_player"
+            "conditions": {"block": "powder_snow", "player": {"nbt": "{TicksFrozen:140}"}}
         }
     },
-    "requirements": [["enter_power_snow"], ["take_freze_damage"]],
+    "requirements": [["enter_power_snow"]],
     "rewards": {}
 }
