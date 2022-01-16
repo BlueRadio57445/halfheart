@@ -26,6 +26,8 @@ give @s minecraft:gray_dye{touch:['slow'],display:{Name:'{"text":"沉履丸", "i
 
 give @s minecraft:light_blue_dye{touch:['freeze'],display:{Name:'{"text":"冷心丸", "italic": false}', Lore:['[{"text": "","italic": false, "color": "gray"}, {"text": "類型:"}, {"text": "接觸毒", "color": "green"}]', '[{"text": "被接觸的生物會被冰凍","italic": false, "color": "gray"}]']}}
 
+give @s minecraft:purple_dye{touch:['hand'],display:{Name:'{"text":"搏雞丸", "italic": false}', Lore:['[{"text": "","italic": false, "color": "gray"}, {"text": "類型:"}, {"text": "接觸毒", "color": "green"}]', '[{"text": "被接觸的生物會丟掉主手武器","italic": false, "color": "gray"}]']}}
+
 give @s minecraft:potion{drink:['harming'],Potion:"harming",display:{Name:'{"text":"驟虫", "italic": false}', Lore:['[{"text": "","italic": false, "color": "gray"}, {"text": "類型:"}, {"text": "飲食毒", "color": "gold"}]', '[{"text": "即使是綠洫也會中毒，相當危險","italic": false, "color": "gray"}]']}}
 
 give @s minecraft:potion{drink:['healing'],Potion:"healing",display:{Name:'{"text":"剋歹", "italic": false}', Lore:['[{"text": "","italic": false, "color": "gray"}, {"text": "類型:"}, {"text": "飲食毒", "color": "gold"}]', '[{"text": "對不死生物來說是毒藥","italic": false, "color": "gray"}]']}}

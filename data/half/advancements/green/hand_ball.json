@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "slow":{
+            "trigger": "thrown_item_picked_up_by_entity",
+            "conditions": {
+                "player": {"team":"green_heart"},
+                "item": {
+                    "items": ["purple_dye"],
+                    "nbt": "{touch:['hand']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/hand_ball"
+    }
+}
