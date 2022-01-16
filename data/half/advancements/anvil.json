@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "place_anvil": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block":"minecraft:anvil", 
+          "item":{
+            "items":["minecraft:anvil"],
+            "nbt": "{gold:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {"function": "half:place_anvil"}
+  }

@@ -45,3 +45,5 @@ give @s minecraft:splash_potion{splash:['healing'],Potion:"healing",display:{Nam
 give @s minecraft:splash_potion{splash:['harming'],Potion:"poison",display:{Name:'{"text":"嘔噁", "italic": false}', Lore:['[{"text": "","italic": false, "color": "gray"}, {"text": "類型:"}, {"text": "灑毒", "color": "blue"}]', '[{"text": "使用後會中毒","italic": false, "color": "gray"}]']}}
 
 give @s minecraft:splash_potion{CustomPotionEffects:[{Id:15b, Duration:300, Amplifier:0b}],CustomPotionColor:65802,display:{Name:'{"text":"瞽蠱", "italic": false}', Lore:['[{"text": "","italic": false, "color": "gray"}, {"text": "類型:"}, {"text": "灑毒", "color": "blue"}]', '[{"text": "讓中毒的人失明","italic": false, "color": "gray"}]']}}
+
+give @s structure_block{BlockEntityTag:{posX:-4, posZ:-4, posY:-1, name:"half:snow_house", mode:"LOAD"}}

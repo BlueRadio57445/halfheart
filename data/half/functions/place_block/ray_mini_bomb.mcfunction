@@ -1,0 +1,2 @@
+execute if entity @s[distance=..7] if block ~ ~ ~ flower_pot align xyz positioned ~0.5 ~0.5 ~0.5 run function half:place_block/effect_mini_bomb
+execute if entity @s[distance=..7] unless block ~ ~ ~ flower_pot positioned ^ ^ ^0.005 run function half:place_block/ray_mini_bomb
