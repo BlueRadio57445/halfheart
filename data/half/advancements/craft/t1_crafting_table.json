@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:t1_crafting_table"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/t1_crafting_table"
+    }
+}

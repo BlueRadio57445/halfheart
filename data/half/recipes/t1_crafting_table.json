@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":{"item": "minecraft:copper_ingot"}, "B":{"item": "minecraft:smithing_table"}, "C": {"item":"minecraft:crafting_table"}, "D": {"item":"minecraft:blast_furnace"}
+    },
+    "pattern": ["ABA", "ACA", "ADA"],
+    "result": {
+        "item": "knowledge_book"
+    }
+}
