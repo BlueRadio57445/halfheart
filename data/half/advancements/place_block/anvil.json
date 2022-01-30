@@ -1,15 +1,15 @@
 {
     "criteria": {
-      "place_mini_bomb": {
+      "place_anvil": {
         "trigger": "minecraft:placed_block",
         "conditions": {
-          "block":"minecraft:flower_pot", 
+          "block":"minecraft:anvil", 
           "item":{
-            "items":["minecraft:flower_pot"],
+            "items":["minecraft:anvil"],
             "nbt": "{gold:1b}"
           }
         }
       }
     },
-    "rewards": {"function": "half:place_mini_bomb"}
+    "rewards": {"function": "half:place_block/place/place_anvil"}
   }

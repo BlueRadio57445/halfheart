@@ -17,3 +17,5 @@ give @s minecraft:firework_star{display:{Name:'{"text":"金質核心","italic":f
 give @s minecraft:firework_star{display:{Name:'{"text":"鑽石核心","italic":false}'},Explosion:{Colors:[I;1697023]},HideFlags:32}
 
 give @s minecraft:firework_star{display:{Name:'{"text":"終界質核心","italic":false}'},Explosion:{Colors:[I;14293177]},HideFlags:32}
+
+give @s dropper{t:1b,type:'crafting_table',display:{Name:'{"text":"銅質工作站","italic": false}'}}

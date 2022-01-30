@@ -1,0 +1,2 @@
+execute at @e[tag=t1_crafting_table] unless block ~ ~ ~ dropper run summon item ~ ~ ~ {Item:{id:"dropper",Count:1b,tag:{t:1b,type:'crafting_table',display:{Name:'{"text":"銅質工作站","italic": false}'}}}}
+execute as @e[tag=t1_crafting_table] at @s unless block ~ ~ ~ dropper run kill @s

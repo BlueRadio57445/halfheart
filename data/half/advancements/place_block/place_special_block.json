@@ -14,5 +14,5 @@
   "requirements": [
     ["place_special_block"]
   ],
-  "rewards": {"function": "half:place_special_block"}
+  "rewards": {"function": "half:place_block/place/place_special_block"}
 }

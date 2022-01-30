@@ -10,5 +10,5 @@
       }
     }
   },
-  "rewards": {"function": "half:place_lightning_rod"}
+  "rewards": {"function": "half:place_block/place/place_lightning_rod"}
 }

@@ -1,2 +1,0 @@
-execute if entity @s[distance=..7] if block ~ ~ ~ anvil align xyz positioned ~0.5 ~0.5 ~0.5 run function half:place_block/effect_anvil
-execute if entity @s[distance=..7] unless block ~ ~ ~ anvil positioned ^ ^ ^0.005 run function half:place_block/ray_anvil

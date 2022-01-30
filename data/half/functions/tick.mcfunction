@@ -4,8 +4,6 @@ execute as @e[tag=special_block] at @s run particle minecraft:flame ~ ~ ~ 1 1 -1
 execute as @e[tag=special_block] at @s run particle minecraft:flame ~ ~ ~ -1 1 -1 0.1 0 normal
 execute as @e[tag=special_block] at @s unless block ~ ~ ~ diamond_block run kill @s
 
-execute as @e[tag=life_crystal] at @s run particle happy_villager ~ ~ ~ 1 1 1 0.1 1
-
 #連閃 半血
 attribute Blue_Radio minecraft:generic.max_health base set 1
 

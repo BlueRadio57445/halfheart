@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~-0.3 ~ {Tags:["t1_crafting_table"],Invisible:1b,ArmorItems:[{},{},{},{id:"copper_block",Count:1b}],Marker:1b,Small:1b}
