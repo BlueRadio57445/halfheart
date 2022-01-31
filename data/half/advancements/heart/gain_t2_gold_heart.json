@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "gold_ingot"
+        },
+        "title": "等級二",
+        "description": "吃下鑽石金蘋果"
+    },
+    "parent": "half:heart/gain_t1_gold_heart",
+    "criteria": {
+        "gain_gold_heart":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["enchanted_golden_apple"],
+                    "nbt":"{t:2b}"
+                }
+            }
+        }
+    },
+    "rewards": {"function": "half:gold/gain_t2_heart"}
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "use_egg":{
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "nbt": "{training_egg:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:red/use_training_egg"
+    }
+}

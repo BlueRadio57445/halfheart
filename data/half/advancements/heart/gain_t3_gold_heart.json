@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "gold_block"
+        },
+        "title": "等級三",
+        "description": "吃下終界龍魂金蘋果"
+    },
+    "parent": "half:heart/gain_t2_gold_heart",
+    "criteria": {
+        "gain_gold_heart":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["enchanted_golden_apple"],
+                    "nbt":"{t:3b}"
+                }
+            }
+        }
+    },
+    "rewards": {"function": "half:gold/gain_t3_heart"}
+}

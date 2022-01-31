@@ -1,0 +1,7 @@
+{
+    "type": "blasting",
+    "ingredient": {
+        "item": "copper_block"
+    },
+    "result": "knowledge_book"
+}

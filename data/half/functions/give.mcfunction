@@ -4,8 +4,6 @@ give @s minecraft:quartz{tp:1b, display:{Name:'{"text": "未充能的傳送水�
 
 give @s redstone_torch{courage:1b, display:{Name:'{"text": "勇氣吊墜", "italic": false}', Lore:['{"text": "握著它睡覺，就能預見魘魔","color": "gray","italic": false}']}}
 
-give @s golden_apple{refined:1b, display:{Name:'{"text": "精煉金蘋果", "italic": false}', Lore:['{"text": "吃下之後就能得到特殊力量", "color": "gray", "italic": false}']}}
-
 give @s golden_sword{rite:1b, display:{Name:'{"text": "儀式小刀", "italic": false}', Lore:['{"text": "殺死特殊生物會會獲得力量","color": "gray","italic": false}']}}
 
 give @s minecraft:ender_eye{will:["attack"], display:{Name:'{"text":"攻擊意志", "italic":false}'}, Enchantments:[{}]}
@@ -21,3 +19,5 @@ give @s minecraft:ender_eye{will:["dolphin"], display:{Name:'{"text":"海豚意�
 give @s minecraft:ender_eye{will:["snow"], display:{Name:'{"text":"踏雪意志", "italic":false}'}, Enchantments:[{}]}
 
 give @s structure_block{BlockEntityTag:{posX:-4, posZ:-4, posY:-1, name:"half:snow_house", mode:"LOAD"}}
+
+give @s spider_spawn_egg{training_egg:1b,display:{Name:'{"text":"訓練之蛋", "italic":false}', Lore:['{"text": "把你內心的恐懼具像化","color": "gray","italic": false}']},EntityTag:{Tags:["training_egg","random"],DeathLootTable:""}}

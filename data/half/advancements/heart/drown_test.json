@@ -4,7 +4,7 @@
             "item": "axolotl_bucket"
         },
         "title": "不溺勇者",
-        "description": "得到深海意志的回應"
+        "description": "在溺死的邊緣撿回一條命"
     },
     "parent": "half:heart/gain_red_heart",
     "criteria": {

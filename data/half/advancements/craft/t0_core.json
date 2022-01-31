@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "t0_core":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:t0_core"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/t0_core"
+    }
+}

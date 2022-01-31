@@ -3,9 +3,9 @@
         "refined_golden_apple":{
             "trigger": "recipe_unlocked",
             "conditions": {
-                "recipe": "half:refined_golden_apple"
+                "recipe": "half:t0_golden_apple"
             }
         }
     },
-    "rewards": {"function": "half:craft/refined_golden_apple"}
+    "rewards": {"function": "half:craft/t0_golden_apple"}
 }

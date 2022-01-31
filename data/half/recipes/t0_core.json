@@ -1,0 +1,12 @@
+{
+    "type": "smithing",
+    "base": {
+        "item": "gunpowder"
+    },
+    "addition": {
+        "item": "copper_ingot"
+    },
+    "result": {
+        "item": "knowledge_book"
+    }
+}

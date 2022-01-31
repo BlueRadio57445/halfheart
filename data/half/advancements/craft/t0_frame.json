@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "t0_frame":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:t0_frame"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/t0_frame"
+    }
+}

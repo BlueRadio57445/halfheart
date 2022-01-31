@@ -1,0 +1,1 @@
+scoreboard players set @s[scores={gold_tier=..3}] gold_tier 3

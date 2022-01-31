@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "gain_training_egg":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "total_kill":{"max": 100,"min": 10}
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "red_heart"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {"function": "half:red/gain_training_egg"}
+}

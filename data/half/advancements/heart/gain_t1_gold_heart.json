@@ -1,22 +1,22 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:yellow_dye"
+            "item": "gold_nugget"
         },
-        "title": "金血啟蒙",
-        "description": "成為一名金血發明家"
+        "title": "等級一",
+        "description": "吃下高級精煉金蘋果"
     },
-    "parent": "half:heart/init",
+    "parent": "half:heart/gain_gold_heart",
     "criteria": {
         "gain_gold_heart":{
             "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "items": ["golden_apple"],
-                    "nbt":"{t:0b}"
+                    "nbt":"{t:1b}"
                 }
             }
         }
     },
-    "rewards": {"function": "half:heart/gain_gold_heart"}
+    "rewards": {"function": "half:gold/gain_t1_heart"}
 }
