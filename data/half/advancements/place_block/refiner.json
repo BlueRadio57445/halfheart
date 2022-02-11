@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "place_refiner": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block":"minecraft:blast_furnace", 
+          "item":{
+            "items":["minecraft:blast_furnace"],
+            "nbt": "{refiner:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {"function": "half:place_block/place/place_refiner"}
+}

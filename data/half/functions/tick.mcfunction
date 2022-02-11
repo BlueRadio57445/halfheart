@@ -47,7 +47,8 @@ effect give @a[advancements={half:heart/drown_test=true}] water_breathing 1 0 tr
 execute at @a[scores={snow_will_count=1..}] run setblock ~ ~-1 ~ snow_block keep
 
 #金血
-
+execute as @a[scores={gold_syringe=1..}] at @s run function half:gold/gold_syringe
+scoreboard players reset @a gold_syringe
 
 execute at @a[scores={throw_tp1=1..}] as @e[distance=..5,type=item, tag=!stored_tp, nbt={Item:{id:"minecraft:quartz",tag:{tp:1b}}}] run function half:gold/store_tp_crystal
 execute at @a[scores={throw_tp2=1..}] as @e[distance=..5,type=item, nbt={Item:{id:"minecraft:amethyst_shard",tag:{tp:1b}}}] run function half:gold/use_tp_crystal

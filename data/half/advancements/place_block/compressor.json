@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "place_compressor": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block":"minecraft:smoker", 
+          "item":{
+            "items":["minecraft:smoker"],
+            "nbt": "{compressor:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {"function": "half:place_block/place/place_compressor"}
+}

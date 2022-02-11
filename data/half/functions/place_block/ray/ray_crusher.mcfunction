@@ -1,0 +1,2 @@
+execute if entity @s[distance=..7] if block ~ ~ ~ furnace align xyz positioned ~0.5 ~0.5 ~0.5 run function half:place_block/effect/effect_crusher
+execute if entity @s[distance=..7] unless block ~ ~ ~ furnace positioned ^ ^ ^0.1 run function half:place_block/ray/ray_crusher

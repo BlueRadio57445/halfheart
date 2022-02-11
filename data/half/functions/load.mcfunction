@@ -1,5 +1,8 @@
 
 #記分板
+#這是拿來放一些暫時分數的
+scoreboard objectives add halfheart dummy "半血冒險"
+
 scoreboard objectives add half_air air "剩餘氧氣"
 scoreboard objectives add throw_tp1 minecraft.dropped:minecraft.quartz "傳送水晶 石英"
 scoreboard objectives add throw_tp2 minecraft.dropped:minecraft.amethyst_shard "傳送水晶 紫水晶"
@@ -7,6 +10,9 @@ scoreboard objectives add death deathCount "☠死亡次數☠"
 scoreboard objectives add snow_will_count dummy "踏雪意志剩餘時間"
 scoreboard objectives add total_kill totalKillCount "總擊殺數"
 scoreboard objectives add gold_tier dummy "金血等級"
+scoreboard objectives add gold_syringe minecraft.dropped:minecraft.spectral_arrow "黃金注射器"
+scoreboard objectives add absorption dummy "吸收"
+#殘念
 scoreboard objectives add gold_energy dummy "黃金能量"
 scoreboard objectives add progress dummy "進度條"
 

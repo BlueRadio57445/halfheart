@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "place_crusher": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block":"minecraft:furnace", 
+          "item":{
+            "items":["minecraft:furnace"],
+            "nbt": "{crusher:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {"function": "half:place_block/place/place_crusher"}
+}

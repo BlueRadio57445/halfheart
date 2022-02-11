@@ -1,0 +1,2 @@
+execute if entity @s[distance=..7] if block ~ ~ ~ smoker align xyz positioned ~0.5 ~0.5 ~0.5 run function half:place_block/effect/effect_compressor
+execute if entity @s[distance=..7] unless block ~ ~ ~ smoker positioned ^ ^ ^0.1 run function half:place_block/ray/ray_compressor

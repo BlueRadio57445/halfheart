@@ -1,0 +1,2 @@
+execute if entity @s[distance=..7] if block ~ ~ ~ blast_furnace align xyz positioned ~0.5 ~0.5 ~0.5 run function half:place_block/effect/effect_refiner
+execute if entity @s[distance=..7] unless block ~ ~ ~ blast_furnace positioned ^ ^ ^0.1 run function half:place_block/ray/ray_refiner

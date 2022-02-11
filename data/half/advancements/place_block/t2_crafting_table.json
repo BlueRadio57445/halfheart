@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "place_mini_bomb": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block":"minecraft:dropper", 
+          "item":{
+            "items":["minecraft:dropper"],
+            "nbt": "{t:2b,type:'crafting_table'}"
+          }
+        }
+      }
+    },
+    "rewards": {"function": "half:place_block/place/place_t2_crafting_table"}
+}
