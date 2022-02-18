@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "drown_test":{
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "half:red/gain_swim_will"
+    }
+}

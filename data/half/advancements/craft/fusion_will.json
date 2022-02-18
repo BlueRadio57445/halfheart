@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:fusion_will"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/fusion_will"
+    }
+}

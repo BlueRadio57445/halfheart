@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "golden_pickaxe"
+        },
+        "title": "鍛鍊臂力",
+        "description": "用壞一個金搞"
+    },
+    "parent": "half:heart/gain_red_heart",
+    "criteria": {
+        "mine_test":{
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {}
+}

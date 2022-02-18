@@ -1,0 +1,28 @@
+ [
+    {
+        "function": "copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "op": "append",
+                "source": "Inventory[{Slot:-106b}].tag.will[]",
+                "target": "will"
+            }
+        ]
+    },
+    {
+        "function": "copy_nbt",
+        "source": "this",
+        "ops": [
+            {
+                "op": "append",
+                "source": "Inventory[{Slot:-106b}].tag.display.Lore[]",
+                "target": "display.Lore"
+            }
+        ]
+    },
+    {
+        "function": "set_name",
+        "name": {"text": "複合意志","color": "light_purple","italic": false}
+    }
+ ]

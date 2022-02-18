@@ -1,0 +1,1 @@
+give @s minecraft:ender_eye{will:["swim"], display:{Name:'{"text":"不溺意志", "italic":false}', Lore:['{"text": "不溺意志","color": "gray","italic": false}']}, Enchantments:[{}]}

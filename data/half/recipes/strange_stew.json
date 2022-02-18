@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "rabbit_stew"}, {"item": "mushroom_stew"}, {"item": "suspicious_stew"},{"item": "beetroot_soup"},{"item": "pufferfish"}
+    ],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

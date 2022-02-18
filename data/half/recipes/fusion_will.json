@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":{"item": "ender_eye"}
+    },
+    "pattern": [" A ", "A A", " A "],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

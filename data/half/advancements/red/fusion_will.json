@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "fusion_will":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {"items": ["ender_eye"], "nbt": "{will:['fusion']}"}
+            }
+        }
+    },
+    "rewards": {"function": "half:red/fusion_will"}
+}

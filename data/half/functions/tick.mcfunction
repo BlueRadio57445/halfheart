@@ -41,7 +41,10 @@ effect give @a[team=red_heart] speed 3 0 true
 effect give @a[team=red_heart,tag=resistence1] resistance 3 0 true
 
 execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s only half:heart/drown_test
-effect give @a[advancements={half:heart/drown_test=true}] water_breathing 1 0 true
+execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s only half:red/
+
+#怪怪大補湯
+effect give @a[advancements={half:heart/stew_test=true},team=red_heart] resistance 10 1 true
 
 #踏雪意志
 execute at @a[scores={snow_will_count=1..}] run setblock ~ ~-1 ~ snow_block keep

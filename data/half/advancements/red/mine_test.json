@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "mine_test":{
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "items": ["golden_pickaxe"]
+                }
+            }
+        }
+    },
+    "rewards":{
+        "function": "half:red/mine_test"
+    }
+}

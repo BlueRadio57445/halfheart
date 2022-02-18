@@ -6,17 +6,21 @@ give @s redstone_torch{courage:1b, display:{Name:'{"text": "勇氣吊墜", "ital
 
 give @s golden_sword{rite:1b, display:{Name:'{"text": "儀式小刀", "italic": false}', Lore:['{"text": "殺死特殊生物會會獲得力量","color": "gray","italic": false}']}}
 
-give @s minecraft:ender_eye{will:["attack"], display:{Name:'{"text":"攻擊意志", "italic":false}'}, Enchantments:[{}]}
+give @s suspicious_stew{strange_stew:1b,display:{Name:'{"text": "怪怪大補湯","italic": false}',Lore:['{"text": "敢喝的人一定十分勇敢","color": "gray","italic": false}']}}
 
-give @s minecraft:ender_eye{will:["mine"], display:{Name:'{"text":"挖掘意志", "italic":false}'}, Enchantments:[{}]}
+give @s minecraft:ender_eye{will:["attack"], display:{Name:'{"text":"攻擊意志", "italic":false}', Lore:['{"text": "攻擊意志","color": "gray","italic": false}']}, Enchantments:[{}]}
 
-give @s minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}'}, Enchantments:[{}]}
+give @s minecraft:ender_eye{will:["mine"], display:{Name:'{"text":"挖掘意志", "italic":false}', Lore:['{"text": "挖掘意志","color": "gray","italic": false}']}, Enchantments:[{}]}
 
-give @s minecraft:ender_eye{will:["swim"], display:{Name:'{"text":"不溺意志", "italic":false}'}, Enchantments:[{}]}
+give @s minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}', Lore:['{"text": "奔放意志","color": "gray","italic": false}']}, Enchantments:[{}]}
 
-give @s minecraft:ender_eye{will:["dolphin"], display:{Name:'{"text":"海豚意志", "italic":false}'}, Enchantments:[{}]}
+give @s minecraft:ender_eye{will:["swim"], display:{Name:'{"text":"不溺意志", "italic":false}', Lore:['{"text": "不溺意志","color": "gray","italic": false}']}, Enchantments:[{}]}
 
-give @s minecraft:ender_eye{will:["snow"], display:{Name:'{"text":"踏雪意志", "italic":false}'}, Enchantments:[{}]}
+give @s minecraft:ender_eye{will:["dolphin"], display:{Name:'{"text":"海豚意志", "italic":false}', Lore:['{"text": "海豚意志","color": "gray","italic": false}']}, Enchantments:[{}]}
+
+give @s minecraft:ender_eye{will:["snow"], display:{Name:'{"text":"踏雪意志", "italic":false}', Lore:['{"text": "踏雪意志","color": "gray","italic": false}']}, Enchantments:[{}]}
+
+give @s minecraft:ender_eye{will:["fusion"], display:{Name:'{"text":"融合意志", "italic":false}', Lore:['{"text": "融合意志","color": "gray","italic": false}']}, Enchantments:[{}]}
 
 give @s structure_block{BlockEntityTag:{posX:-4, posZ:-4, posY:-1, name:"half:snow_house", mode:"LOAD"}}
 

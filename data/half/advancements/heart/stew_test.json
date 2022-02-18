@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "suspicious_stew"
+        },
+        "title": "吃得苦中苦",
+        "description": "喝下怪怪大補湯"
+    },
+    "parent": "half:heart/gain_red_heart",
+    "criteria": {
+        "stew_test":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["suspicious_stew"],
+                    "nbt": "{strange_stew:1b}"
+                }
+            }
+        }
+    }
+}

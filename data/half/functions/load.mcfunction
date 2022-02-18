@@ -8,13 +8,12 @@ scoreboard objectives add throw_tp1 minecraft.dropped:minecraft.quartz "傳送�
 scoreboard objectives add throw_tp2 minecraft.dropped:minecraft.amethyst_shard "傳送水晶 紫水晶"
 scoreboard objectives add death deathCount "☠死亡次數☠"
 scoreboard objectives add snow_will_count dummy "踏雪意志剩餘時間"
+scoreboard objectives add red_level dummy "真血等級"
+scoreboard objectives add use_training dummy "訓練之蛋使用次數"
 scoreboard objectives add total_kill totalKillCount "總擊殺數"
 scoreboard objectives add gold_tier dummy "金血等級"
 scoreboard objectives add gold_syringe minecraft.dropped:minecraft.spectral_arrow "黃金注射器"
 scoreboard objectives add absorption dummy "吸收"
-#殘念
-scoreboard objectives add gold_energy dummy "黃金能量"
-scoreboard objectives add progress dummy "進度條"
 
 #隊伍
 team add green_heart "綠血煉金者"
@@ -32,5 +31,6 @@ team modify all_heart prefix {"text":"《萬血至尊》", "color": "light_purpl
 #函數排程
 schedule function half:gold/gold_heart 1t
 schedule function half:red/snow_count 1t
+schedule function half:red/no_bounce 1t
 
 tellraw @a ["",{"text":"=======半血冒險=======","color":"red"},"\n",{"text":"歡迎安裝半血冒險","color":"red"},"\n",{"text":"這個資料包讓玩家只有半顆心，改變遊戲的冒險玩法","color":"red"},"\n",{"text":"有紅血、綠血、黑血、金血四種流派","color":"red"},"\n",{"text":"合成表:","color":"red"},"\n","\n","作者:",{"text":"收音機","color":"blue"},"\n",{"text":"收音機的youtube頻道","color":"red","clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCf88Hv3bZUuA0OlT14KaMQw"},"hoverEvent":{"action":"show_text","contents":["點我前往頻道"]}},"\n",{"text":"======================","color":"red"}]
