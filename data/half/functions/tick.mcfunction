@@ -43,6 +43,9 @@ effect give @a[team=red_heart,tag=resistence1] resistance 3 0 true
 execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s only half:heart/drown_test
 execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s only half:red/
 
+execute as @a[scores={half_run=32000..}] run give @s minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}', Lore:['{"text": "奔放意志","color": "gray","italic": false}']}, Enchantments:[{}]}
+scoreboard players reset @a[scores={half_run=32000..}]
+
 #怪怪大補湯
 effect give @a[advancements={half:heart/stew_test=true},team=red_heart] resistance 10 1 true
 

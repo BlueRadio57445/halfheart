@@ -1,0 +1,1 @@
+give @s minecraft:ender_eye{will:["snow"], display:{Name:'{"text":"踏雪意志", "italic":false}', Lore:['{"text": "踏雪意志","color": "gray","italic": false}']}, Enchantments:[{}]}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "dolphin_test":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {"type": "dolphin"},
+                "item": {"items": ["cod","salmon"]}
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:red/gain_dolphin_will"
+    }
+}

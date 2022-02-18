@@ -1,0 +1,2 @@
+give @s minecraft:ender_eye{will:["dolphin"], display:{Name:'{"text":"海豚意志", "italic":false}', Lore:['{"text": "海豚意志","color": "gray","italic": false}']}, Enchantments:[{}]}
+advancement revoke @s only half:red/dolphin_test

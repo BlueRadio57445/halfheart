@@ -4,6 +4,7 @@
 scoreboard objectives add halfheart dummy "半血冒險"
 
 scoreboard objectives add half_air air "剩餘氧氣"
+scoreboard objectives add half_run minecraft.custom:minecraft.sprint_one_cm "跑步距離"
 scoreboard objectives add throw_tp1 minecraft.dropped:minecraft.quartz "傳送水晶 石英"
 scoreboard objectives add throw_tp2 minecraft.dropped:minecraft.amethyst_shard "傳送水晶 紫水晶"
 scoreboard objectives add death deathCount "☠死亡次數☠"
