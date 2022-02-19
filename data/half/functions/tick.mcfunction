@@ -7,9 +7,6 @@ execute as @e[tag=special_block] at @s unless block ~ ~ ~ diamond_block run kill
 #連閃 機器
 function half:gold/machine
 
-#連閃 測試機器
-execute as @e[tag=crusher,scores={gold_energy=1..}] run function half:gold_test/crusher
-
 #連閃 半血
 attribute Blue_Radio minecraft:generic.max_health base set 1
 

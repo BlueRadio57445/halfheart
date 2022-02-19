@@ -34,10 +34,6 @@ give @s minecraft:firework_star{t:2b,core:1b,display:{Name:'{"text":"終界質�
 
 give @s dropper{t:1b,type:'crafting_table',display:{Name:'{"text":"銅質工作站","italic": false}'},Enchantments:[{}]}
 
-give @s dropper{t:2b,type:'crafting_table',display:{Name:'{"text":"鐵質工作站","italic": false}'},Enchantments:[{}]}
-
-give @s dropper{t:3b,type:'crafting_table',display:{Name:'{"text":"鑽石工作站","italic": false}'},Enchantments:[{}]}
-
 give @s minecraft:furnace{crusher:1b,display:{Name:'{"text":"磨粉機","italic":false}'},Enchantments:[{}]}
 
 give @s smoker{compressor:1b,display:{Name:'{"text":"壓縮機","italic":false}'},Enchantments:[{}]}
