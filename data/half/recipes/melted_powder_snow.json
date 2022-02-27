@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "glass_bottle"}, {"item": "powder_snow_bucket"}
+    ],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

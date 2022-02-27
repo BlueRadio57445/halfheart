@@ -3,15 +3,24 @@
 #這是拿來放一些暫時分數的
 scoreboard objectives add halfheart dummy "半血冒險"
 
+scoreboard objectives add death deathCount "☠死亡次數☠"
+
 scoreboard objectives add half_air air "剩餘氧氣"
 scoreboard objectives add half_run minecraft.custom:minecraft.sprint_one_cm "跑步距離"
-scoreboard objectives add throw_tp1 minecraft.dropped:minecraft.quartz "傳送水晶 石英"
-scoreboard objectives add throw_tp2 minecraft.dropped:minecraft.amethyst_shard "傳送水晶 紫水晶"
-scoreboard objectives add death deathCount "☠死亡次數☠"
 scoreboard objectives add snow_will_count dummy "踏雪意志剩餘時間"
 scoreboard objectives add red_level dummy "真血等級"
 scoreboard objectives add use_training dummy "訓練之蛋使用次數"
 scoreboard objectives add total_kill totalKillCount "總擊殺數"
+
+scoreboard objectives add stomach minecraft.used:minecraft.warped_fungus_on_a_stick "使用胃鏡"
+scoreboard objectives add sandwich dummy "腐肉三明治"
+scoreboard objectives add berries dummy "發酵梅"
+scoreboard objectives add carrot dummy "鑲鐵蘿蔔"
+scoreboard objectives add poppy_tea dummy "罌粟花茶"
+scoreboard objectives add snow dummy "初融粉雪"
+
+scoreboard objectives add throw_tp1 minecraft.dropped:minecraft.quartz "傳送水晶 石英"
+scoreboard objectives add throw_tp2 minecraft.dropped:minecraft.amethyst_shard "傳送水晶 紫水晶"
 scoreboard objectives add gold_tier dummy "金血等級"
 scoreboard objectives add gold_syringe minecraft.dropped:minecraft.spectral_arrow "黃金注射器"
 scoreboard objectives add absorption dummy "吸收"

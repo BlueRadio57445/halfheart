@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "sweet_berries"}, {"item": "sugar"}, {"item": "brown_mushroom"}
+    ],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

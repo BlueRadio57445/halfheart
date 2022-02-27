@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":{"item": "minecraft:sugar"}, "B":{"item": "minecraft:poppy"}, "C":{"item": "potion"}
+    },
+    "pattern": ["AAA", "BBB", " C "],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

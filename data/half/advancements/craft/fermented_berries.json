@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:fermented_berries"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/fermented_berries"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:melted_powder_snow"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/melted_powder_snow"
+    }
+}

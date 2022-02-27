@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:poppy_tea"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/poppy_tea"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["potion"],
+                    "nbt": "{poppy_tea:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/drink_poppy_tea"
+    }
+}

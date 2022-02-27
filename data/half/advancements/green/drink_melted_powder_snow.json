@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["potion"],
+                    "nbt": "{melted_powder_snow:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/drink_melted_powder_snow"
+    }
+}

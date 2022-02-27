@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["sweet_berries"],
+                    "nbt": "{fermented_berries:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/eat_fermented_berries"
+    }
+}

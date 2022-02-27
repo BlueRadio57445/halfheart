@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["honey_bottle"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/brewing_drink/brewing_drink"
+    }
+}

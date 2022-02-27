@@ -8,13 +8,16 @@ execute as @e[tag=special_block] at @s unless block ~ ~ ~ diamond_block run kill
 function half:gold/machine
 
 #連閃 半血
-attribute Blue_Radio minecraft:generic.max_health base set 1
+#attribute Blue_Radio minecraft:generic.max_health base set 1
 
 #綠血
 effect give @a[team=green_heart] poison 1 0 true
 effect give @a[team=green_heart] night_vision 13 0 true
 
 execute as @a[team=green_heart] at @s if block ~ ~ ~ powder_snow run effect clear @s poison
+
+execute as @a[scores={stomach=1..},team=green_heart] run function half:green/stomach
+scoreboard players set @a[scores={stomach=1..}] stomach 0
 
 #駭霞
 #execute at @a run particle totem_of_undying ~ ~0.5 ~ 1.5 0.1 1.5 0.1 10
@@ -40,7 +43,7 @@ effect give @a[team=red_heart,tag=resistence1] resistance 3 0 true
 execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s only half:heart/drown_test
 execute as @a[team=red_heart, scores={half_air=..20}] run advancement grant @s only half:red/
 
-execute as @a[scores={half_run=32000..}] run give @s minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}', Lore:['{"text": "奔放意志","color": "gray","italic": false}']}, Enchantments:[{}]}
+execute as @a[scores={half_run=32000..},team=red_heart] run give @s minecraft:ender_eye{will:["run"], display:{Name:'{"text":"奔放意志", "italic":false}', Lore:['{"text": "奔放意志","color": "gray","italic": false}']}, Enchantments:[{}]}
 scoreboard players reset @a[scores={half_run=32000..}]
 
 #怪怪大補湯

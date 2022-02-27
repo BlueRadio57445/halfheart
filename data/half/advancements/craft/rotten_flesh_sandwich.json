@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "half:rotten_flesh_sandwich"
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:craft/rotten_flesh_sandwich"
+    }
+}

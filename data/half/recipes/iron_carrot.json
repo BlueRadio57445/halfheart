@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":{"item": "minecraft:iron_nugget"}, "B":{"item": "minecraft:carrot"}
+    },
+    "pattern": ["AAA", "ABA", "AAA"],
+    "result": {
+        "item": "knowledge_book"
+    }
+}

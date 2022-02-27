@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["bread"],
+                    "nbt": "{rotten_flesh_sandwich:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/eat_rotten_flesh_sandwich"
+    }
+}

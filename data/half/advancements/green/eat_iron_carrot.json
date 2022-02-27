@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["carrot"],
+                    "nbt": "{iron_carrot:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/eat_iron_carrot"
+    }
+}

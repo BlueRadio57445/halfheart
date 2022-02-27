@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":{"item": "minecraft:wheat"}, "B":{"item": "minecraft:rotten_flesh"}
+    },
+    "pattern": ["AAA", "BBB", "AAA"],
+    "result": {
+        "item": "knowledge_book"
+    }
+}
