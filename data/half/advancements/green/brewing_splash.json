@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["beetroot_soup"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/brewing_splash/brewing_splash"
+    }
+}

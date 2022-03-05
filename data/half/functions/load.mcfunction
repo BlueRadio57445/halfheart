@@ -14,6 +14,8 @@ scoreboard objectives add total_kill totalKillCount "總擊殺數"
 
 scoreboard objectives add stomach minecraft.used:minecraft.warped_fungus_on_a_stick "使用胃鏡"
 scoreboard objectives add sandwich dummy "腐肉三明治"
+scoreboard objectives add pufferfish minecraft.used:minecraft.pufferfish "河豚"
+scoreboard objectives add apple minecraft.used:minecraft.apple "蘋果"
 scoreboard objectives add berries dummy "發酵梅"
 scoreboard objectives add carrot dummy "鑲鐵蘿蔔"
 scoreboard objectives add poppy_tea dummy "罌粟花茶"
