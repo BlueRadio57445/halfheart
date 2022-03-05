@@ -19,6 +19,12 @@ execute as @a[team=green_heart] at @s if block ~ ~ ~ powder_snow run effect clea
 execute as @a[scores={stomach=1..},team=green_heart] run function half:green/stomach
 scoreboard players set @a[scores={stomach=1..}] stomach 0
 
+#接觸毒
+execute as @e[type=item,tag=!ball,nbt={OnGround:1b}] if data entity @s Item.tag.touch run data modify entity @s PickupDelay set value 0s
+execute as @e[type=item,tag=!ball,nbt={OnGround:1b}] if data entity @s Item.tag.touch run tag @s add ball
+execute as @e[type=#half:mobs,tag=!mobs] run data modify entity @s CanPickUpLoot set value 1b
+tag @e[type=#half:mobs,tag=!mobs] add mobs
+
 #駭霞
 #execute at @a run particle totem_of_undying ~ ~0.5 ~ 1.5 0.1 1.5 0.1 10
 #execute at @a run effect give @a[distance=..4, team=!green_heart] poison 3 0 false
