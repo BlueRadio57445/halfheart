@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["golden_carrot"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/brewing_lingering/brewing_lingering"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spider_eye"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "half:green/brewing_ball/brewing_ball"
+    }
+}

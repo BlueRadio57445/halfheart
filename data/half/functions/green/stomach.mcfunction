@@ -1,4 +1,4 @@
-say hi
+tellraw @s [{"text":"這是你胃裡的東西"}]
 tellraw @s [{"text": "腐肉三明治 : "}, {"score":{"name": "*", "objective": "sandwich"}}]
 tellraw @s [{"text": "發酵梅 : "}, {"score":{"name": "*", "objective": "berries"}}]
 tellraw @s [{"text": "河豚 : "}, {"score":{"name": "*", "objective": "pufferfish"}}]

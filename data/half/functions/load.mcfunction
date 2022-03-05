@@ -20,6 +20,7 @@ scoreboard objectives add berries dummy "發酵梅"
 scoreboard objectives add carrot dummy "鑲鐵蘿蔔"
 scoreboard objectives add poppy_tea dummy "罌粟花茶"
 scoreboard objectives add snow dummy "初融粉雪"
+scoreboard objectives add rotten_flesh minecraft.used:minecraft.rotten_flesh "腐肉"
 
 scoreboard objectives add throw_tp1 minecraft.dropped:minecraft.quartz "傳送水晶 石英"
 scoreboard objectives add throw_tp2 minecraft.dropped:minecraft.amethyst_shard "傳送水晶 紫水晶"
